@@ -1,28 +1,28 @@
 :root {
-  --text: #334155;
-  --text-h: #07152f;
-  --muted: #64748b;
-  --bg: #f4f8fb;
+  --text: #26384f;
+  --text-h: #061733;
+  --muted: #526a83;
+  --bg: #edf5fb;
   --surface: #ffffff;
   --surface-strong: #f8fbff;
-  --comparison-surface: #eef7fb;
-  --border: #d8e5ef;
-  --input-border: #aac4d8;
-  --code-bg: #edf3f8;
-  --accent: #2563eb;
-  --accent-strong: #1556d6;
-  --accent-soft: #dbeafe;
-  --blue-mid: #4f8ff7;
-  --blue-soft: #e5f0ff;
-  --blue-gray: #6f88a6;
-  --blue-gray-soft: #e9f0f7;
-  --focus: rgba(37, 99, 235, 0.32);
-  --notice: #2563eb;
-  --notice-bg: #eaf2ff;
-  --bar-bg: #dbe7f0;
-  --bar-fill: #2563eb;
-  --bar-fill-secondary: #6f88a6;
-  --shadow: 0 24px 70px rgba(15, 43, 83, 0.13);
+  --comparison-surface: #e7f2fa;
+  --border: #c9dbe9;
+  --input-border: #8eb0cc;
+  --code-bg: #e6f0f8;
+  --accent: #1f6feb;
+  --accent-strong: #0b4fb3;
+  --accent-soft: #d5e8ff;
+  --blue-mid: #4b93f8;
+  --blue-soft: #e1efff;
+  --blue-gray: #58718d;
+  --blue-gray-soft: #dfe9f3;
+  --focus: rgba(31, 111, 235, 0.34);
+  --notice: #1f6feb;
+  --notice-bg: #e3f0ff;
+  --bar-bg: #cfdeea;
+  --bar-fill: #1f6feb;
+  --bar-fill-secondary: #58718d;
+  --shadow: 0 24px 70px rgba(6, 23, 51, 0.14);
 
   --sans: 'Aptos', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
   --heading: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
@@ -48,9 +48,9 @@
 body {
   margin: 0;
   background:
-    radial-gradient(circle at 16% 8%, rgba(37, 99, 235, 0.14), transparent 28%),
-    radial-gradient(circle at 84% 0%, rgba(79, 143, 247, 0.12), transparent 30%),
-    linear-gradient(180deg, #fbfdff 0%, var(--bg) 46%, #eef5fb 100%);
+    radial-gradient(circle at 16% 8%, rgba(31, 111, 235, 0.13), transparent 28%),
+    radial-gradient(circle at 84% 0%, rgba(75, 147, 248, 0.1), transparent 30%),
+    linear-gradient(180deg, #fbfdff 0%, var(--bg) 48%, #e6f0f8 100%);
 }
 
 #root {

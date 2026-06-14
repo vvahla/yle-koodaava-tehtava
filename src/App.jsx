@@ -30,22 +30,6 @@ function formatPercentage(value) {
   return `${percentageFormatter.format(value)} %`
 }
 
-function formatPercentageText(value) {
-  if (!isCalculatedShare(value)) {
-    return 'ei ole laskettavissa'
-  }
-
-  return `${percentageFormatter.format(value)} prosenttia`
-}
-
-function getLocationText(municipality) {
-  if (municipality === 'Helsinki') {
-    return 'Helsingissä'
-  }
-
-  return `Kunnassa ${municipality}`
-}
-
 function getComparisonText(selectedMunicipality, nationalShare) {
   if (!isCalculatedShare(selectedMunicipality.share)) {
     if (selectedMunicipality.totalChildren === 0) {
@@ -69,44 +53,7 @@ function getComparisonText(selectedMunicipality, nationalShare) {
 
   const direction = difference > 0 ? 'enemmän' : 'vähemmän'
 
-  return `Se on ${formattedDifference} prosenttiyksikköä ${direction} kuin koko maassa.`
-}
-
-function getInsight(selectedMunicipality, nationalShare) {
-  if (!isCalculatedShare(selectedMunicipality.share)) {
-    return {
-      tone: 'neutral',
-      text: 'Kunnalle ei voi laskea osuutta, mutta raakaluvut näkyvät alla.',
-    }
-  }
-
-  if (!isCalculatedShare(nationalShare)) {
-    return {
-      tone: 'neutral',
-      text: 'Koko maan vertailuarvoa ei voi laskea.',
-    }
-  }
-
-  const difference = selectedMunicipality.share - nationalShare
-
-  if (Math.abs(difference) < 0.005) {
-    return {
-      tone: 'neutral',
-      text: 'Kunnan osuus on samaa tasoa kuin koko maan osuus.',
-    }
-  }
-
-  if (difference > 0) {
-    return {
-      tone: 'above',
-      text: 'Kunnan osuus on koko maan osuutta suurempi.',
-    }
-  }
-
-  return {
-    tone: 'below',
-    text: 'Kunnan osuus on koko maan osuutta pienempi.',
-  }
+  return `Osuus on ${formattedDifference} prosenttiyksikköä ${direction} kuin koko maassa.`
 }
 
 function ComparisonBar({ label, share, variant = 'primary' }) {
@@ -162,12 +109,6 @@ function App() {
     selectedMunicipality.totalChildren > 0 &&
     selectedMunicipality.foreignLanguageChildren === 0
   const hasNoChildren = selectedMunicipality.totalChildren === 0
-  const insight = getInsight(selectedMunicipality, nationalData.share)
-  const mainSentence = `${getLocationText(
-    selectedMunicipality.municipality
-  )} vieraskielisten lasten osuus varhaiskasvatuksessa on ${formatPercentageText(
-    selectedMunicipality.share
-  )}.`
 
   return (
     <main className="page">
@@ -215,19 +156,25 @@ function App() {
 
         <div
           key={selectedMunicipality.municipalityCode}
-          className="result-card"
+          className="result-panel"
           aria-live="polite"
         >
-          <div className="result-kicker">Kunnan tilanne</div>
-          <div className="result-lede">
-            <h2>{selectedMunicipality.municipality}</h2>
-            <p
+          <section className="result-hero" aria-labelledby="result-heading">
+            <div className="result-copy">
+              <p className="result-kicker">Kunnan tilanne</p>
+              <h2 id="result-heading">{selectedMunicipality.municipality}</h2>
+              <p className="comparison-sentence">
+                {getComparisonText(selectedMunicipality, nationalData.share)}
+              </p>
+            </div>
+
+            <div
               key={`${selectedMunicipality.municipalityCode}-percentage`}
               className="main-percentage"
             >
-              {formatPercentage(selectedMunicipality.share)}
-            </p>
-          </div>
+              <span>{formatPercentage(selectedMunicipality.share)}</span>
+            </div>
+          </section>
 
           {!shareIsCalculated ? (
             <p className="notice">
@@ -236,22 +183,13 @@ function App() {
                 : 'Osuutta ei voi laskea, koska aineistosta puuttuu laskentaan tarvittava tieto.'}
             </p>
           ) : (
-            <>
-              <p className="story-sentence">{mainSentence}</p>
-              {hasNoForeignLanguageChildren && (
-                <p className="notice">
-                  Kunnassa ei ole vieraskielisiä
-                  varhaiskasvatukseen osallistuneita lapsia.
-                </p>
-              )}
-            </>
+            hasNoForeignLanguageChildren && (
+              <p className="notice">
+                Kunnassa ei ole vieraskielisiä varhaiskasvatukseen osallistuneita
+                lapsia.
+              </p>
+            )
           )}
-
-          <p className={`insight ${insight.tone}`}>{insight.text}</p>
-
-          <p className="comparison-sentence">
-            {getComparisonText(selectedMunicipality, nationalData.share)}
-          </p>
 
           <dl className="stats" aria-label="Kunnan luvut">
             <div>
@@ -269,23 +207,23 @@ function App() {
               <dd>{formatPercentage(nationalData.share)}</dd>
             </div>
           </dl>
-        </div>
 
-        <section className="comparison" aria-labelledby="comparison-heading">
-          <div className="section-heading">
-            <h2 id="comparison-heading">Osuuden vertailu</h2>
-            <p>Vieraskielisten lasten osuus varhaiskasvatuksessa.</p>
-          </div>
-          <ComparisonBar
-            label={selectedMunicipality.municipality}
-            share={selectedMunicipality.share}
-          />
-          <ComparisonBar
-            label={NATIONAL_NAME}
-            share={nationalData.share}
-            variant="secondary"
-          />
-        </section>
+          <section className="comparison" aria-labelledby="comparison-heading">
+            <div className="section-heading">
+              <h2 id="comparison-heading">Osuuden vertailu</h2>
+              <p>Valittu kunta ja koko maan osuus samassa asteikossa.</p>
+            </div>
+            <ComparisonBar
+              label={selectedMunicipality.municipality}
+              share={selectedMunicipality.share}
+            />
+            <ComparisonBar
+              label={NATIONAL_NAME}
+              share={nationalData.share}
+              variant="secondary"
+            />
+          </section>
+        </div>
       </section>
 
       <p className="source-note">
