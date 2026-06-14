@@ -40,7 +40,7 @@ Aineisto: *Varhaiskasvatukseen osallistuneet vieraskieliset ja ulkomaalaiset lap
   - Varhaiskasvatukseen osallistuneet lapset
   - Vieraskieliset varhaiskasvatukseen osallistuneet lapset
 
-Lähdehuomautuksen mukaan aineisto ei sisällä Ahvenanmaata. Vieraskielisellä tarkoitetaan henkilöä, jonka äidinkieli on muu kuin suomi, ruotsi tai saame. Alue perustuu varhaiskasvatuksen pääasiallisen toimipaikan kuntaan.
+Aineiston huomautuksen mukaan tiedot eivät sisällä Ahvenanmaata. Tämän vuoksi Ahvenanmaan kunnat on rajattu pois sovelluksen kuntavalinnasta. Vieraskielisellä tarkoitetaan henkilöä, jonka äidinkieli on muu kuin suomi, ruotsi tai saame. Alue perustuu varhaiskasvatuksen pääasiallisen toimipaikan kuntaan.
 
 ## Datan esikäsittely
 

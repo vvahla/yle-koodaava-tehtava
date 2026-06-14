@@ -58,12 +58,17 @@ function getComparisonText(selectedMunicipality, nationalShare) {
 
 function ComparisonBar({ label, share, variant = 'primary' }) {
   const width = isCalculatedShare(share) ? Math.min(Math.max(share, 0), 100) : 0
+  const valueLabel = isCalculatedShare(share)
+    ? formatPercentage(share)
+    : 'Ei laskettavaa osuutta'
 
   return (
     <div className={`comparison-bar ${variant}`}>
       <div className="bar-label">
         <span>{label}</span>
-        <strong>{formatPercentage(share)}</strong>
+        <strong className={!isCalculatedShare(share) ? 'empty-value' : ''}>
+          {valueLabel}
+        </strong>
       </div>
       <div className="bar-track" aria-hidden="true">
         <div className="bar-fill" style={{ width: `${width}%` }}></div>
@@ -108,7 +113,6 @@ function App() {
     shareIsCalculated &&
     selectedMunicipality.totalChildren > 0 &&
     selectedMunicipality.foreignLanguageChildren === 0
-  const hasNoChildren = selectedMunicipality.totalChildren === 0
 
   return (
     <main className="page">
@@ -163,27 +167,29 @@ function App() {
             <div className="result-copy">
               <p className="result-kicker">Kunnan tilanne</p>
               <h2 id="result-heading">{selectedMunicipality.municipality}</h2>
-              <p className="comparison-sentence">
-                <span aria-hidden="true" className="comparison-dot"></span>
-                <span>
-                  {getComparisonText(selectedMunicipality, nationalData.share)}
-                </span>
-              </p>
+              {shareIsCalculated && (
+                <p className="comparison-sentence">
+                  <span aria-hidden="true" className="comparison-dot"></span>
+                  <span>
+                    {getComparisonText(selectedMunicipality, nationalData.share)}
+                  </span>
+                </p>
+              )}
             </div>
 
             <div
               key={`${selectedMunicipality.municipalityCode}-percentage`}
               className="main-percentage"
             >
-              <span>{formatPercentage(selectedMunicipality.share)}</span>
+              <span className={!shareIsCalculated ? 'not-calculable' : ''}>
+                {formatPercentage(selectedMunicipality.share)}
+              </span>
             </div>
           </section>
 
           {!shareIsCalculated ? (
             <p className="notice">
-              {hasNoChildren
-                ? 'Osuutta ei voi laskea, koska kunnassa ei ole lainkaan varhaiskasvatukseen osallistuneita lapsia.'
-                : 'Osuutta ei voi laskea, koska aineistosta puuttuu laskentaan tarvittava tieto.'}
+              Tälle kunnalle ei ole laskettavaa osuutta tässä aineistossa.
             </p>
           ) : (
             hasNoForeignLanguageChildren && (
@@ -230,7 +236,7 @@ function App() {
       </section>
 
       <p className="source-note">
-        Lähde: Tilastokeskus
+        Lähde: Tilastokeskus. Aineisto ei sisällä Ahvenanmaan tietoja.
       </p>
     </main>
   )

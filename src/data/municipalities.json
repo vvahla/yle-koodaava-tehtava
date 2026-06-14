@@ -49,20 +49,6 @@
     "share": 1.43
   },
   {
-    "municipalityCode": "KU035",
-    "municipality": "Brändö",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
-  },
-  {
-    "municipalityCode": "KU043",
-    "municipality": "Eckerö",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
-  },
-  {
     "municipalityCode": "KU046",
     "municipality": "Enonkoski",
     "totalChildren": 37,
@@ -105,32 +91,11 @@
     "share": 1.23
   },
   {
-    "municipalityCode": "KU060",
-    "municipality": "Finström",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
-  },
-  {
     "municipalityCode": "KU061",
     "municipality": "Forssa",
     "totalChildren": 529,
     "foreignLanguageChildren": 105,
     "share": 19.85
-  },
-  {
-    "municipalityCode": "KU062",
-    "municipality": "Föglö",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
-  },
-  {
-    "municipalityCode": "KU065",
-    "municipality": "Geta",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
   },
   {
     "municipalityCode": "KU069",
@@ -166,13 +131,6 @@
     "totalChildren": 614,
     "foreignLanguageChildren": 60,
     "share": 9.77
-  },
-  {
-    "municipalityCode": "KU076",
-    "municipality": "Hammarland",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
   },
   {
     "municipalityCode": "KU077",
@@ -390,13 +348,6 @@
     "totalChildren": 174,
     "foreignLanguageChildren": 7,
     "share": 4.02
-  },
-  {
-    "municipalityCode": "KU170",
-    "municipality": "Jomala",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
   },
   {
     "municipalityCode": "KU171",
@@ -791,13 +742,6 @@
     "share": 2.33
   },
   {
-    "municipalityCode": "KU295",
-    "municipality": "Kumlinge",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
-  },
-  {
     "municipalityCode": "KU297",
     "municipality": "Kuopio",
     "totalChildren": 5360,
@@ -852,13 +796,6 @@
     "totalChildren": 98,
     "foreignLanguageChildren": 1,
     "share": 1.02
-  },
-  {
-    "municipalityCode": "KU318",
-    "municipality": "Kökar",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
   },
   {
     "municipalityCode": "KU398",
@@ -929,13 +866,6 @@
     "totalChildren": 98,
     "foreignLanguageChildren": 1,
     "share": 1.02
-  },
-  {
-    "municipalityCode": "KU417",
-    "municipality": "Lemland",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
   },
   {
     "municipalityCode": "KU418",
@@ -1029,13 +959,6 @@
     "share": 8
   },
   {
-    "municipalityCode": "KU438",
-    "municipality": "Lumparland",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
-  },
-  {
     "municipalityCode": "KU440",
     "municipality": "Luoto",
     "totalChildren": 373,
@@ -1055,13 +978,6 @@
     "totalChildren": 287,
     "foreignLanguageChildren": 18,
     "share": 6.27
-  },
-  {
-    "municipalityCode": "KU478",
-    "municipality": "Maarianhamina - Mariehamn",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
   },
   {
     "municipalityCode": "KU480",
@@ -1659,13 +1575,6 @@
     "share": 13.89
   },
   {
-    "municipalityCode": "KU736",
-    "municipality": "Saltvik",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
-  },
-  {
     "municipalityCode": "KU790",
     "municipality": "Sastamala",
     "totalChildren": 740,
@@ -1799,25 +1708,11 @@
     "share": 10.56
   },
   {
-    "municipalityCode": "KU766",
-    "municipality": "Sottunga",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
-  },
-  {
     "municipalityCode": "KU768",
     "municipality": "Sulkava",
     "totalChildren": 63,
     "foreignLanguageChildren": 1,
     "share": 1.59
-  },
-  {
-    "municipalityCode": "KU771",
-    "municipality": "Sund",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
   },
   {
     "municipalityCode": "KU777",
@@ -2112,13 +2007,6 @@
     "totalChildren": 187,
     "foreignLanguageChildren": 13,
     "share": 6.95
-  },
-  {
-    "municipalityCode": "KU941",
-    "municipality": "Vårdö",
-    "totalChildren": 0,
-    "foreignLanguageChildren": 0,
-    "share": null
   },
   {
     "municipalityCode": "KU946",

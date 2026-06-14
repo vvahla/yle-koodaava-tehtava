@@ -206,6 +206,14 @@ select:focus-visible {
   line-height: 0.95;
 }
 
+.main-percentage .not-calculable {
+  max-width: 180px;
+  font-size: 24px;
+  font-weight: 850;
+  line-height: 1.12;
+  white-space: normal;
+}
+
 .notice {
   margin-top: 16px;
   padding: 13px 15px;
@@ -295,6 +303,12 @@ select:focus-visible {
 
 .bar-label strong {
   white-space: nowrap;
+}
+
+.bar-label .empty-value {
+  color: var(--blue-gray);
+  font-size: 13px;
+  font-weight: 750;
 }
 
 .bar-track {
@@ -428,6 +442,10 @@ select:focus-visible {
 
   .main-percentage span {
     font-size: 44px;
+  }
+
+  .main-percentage .not-calculable {
+    font-size: 21px;
   }
 
   .bar-label {

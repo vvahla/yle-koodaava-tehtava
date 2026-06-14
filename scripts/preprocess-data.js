@@ -10,6 +10,24 @@ const outputPath = path.join(projectRoot, 'src', 'data', 'municipalities.json');
 
 const rawData = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
 const municipalityCategory = rawData.dimension.alue_23_20240101.category;
+const alandMunicipalityCodes = new Set([
+  'KU035',
+  'KU043',
+  'KU060',
+  'KU062',
+  'KU065',
+  'KU076',
+  'KU170',
+  'KU295',
+  'KU318',
+  'KU417',
+  'KU438',
+  'KU478',
+  'KU736',
+  'KU766',
+  'KU771',
+  'KU941',
+]);
 
 function parseValue(value) {
   const number = Number(value);
@@ -30,8 +48,9 @@ function calculateShare(totalChildren, foreignLanguageChildren) {
 }
 
 const municipalities = Object.entries(municipalityCategory.index)
+  .filter(([municipalityCode]) => !alandMunicipalityCodes.has(municipalityCode))
   .sort(([, firstIndex], [, secondIndex]) => firstIndex - secondIndex)
-  .map(([municipalityCode], municipalityIndex) => {
+  .map(([municipalityCode, municipalityIndex]) => {
     const totalChildren = parseValue(rawData.value[municipalityIndex * 2]);
     const foreignLanguageChildren = parseValue(
       rawData.value[municipalityIndex * 2 + 1]
