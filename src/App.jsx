@@ -64,12 +64,49 @@ function getComparisonText(selectedMunicipality, nationalShare) {
   const formattedDifference = percentageFormatter.format(absoluteDifference)
 
   if (absoluteDifference < 0.005) {
-    return 'Se on samalla tasolla kuin koko maassa.'
+    return 'Kunnan osuus on samaa tasoa kuin koko maan osuus.'
   }
 
   const direction = difference > 0 ? 'enemmän' : 'vähemmän'
 
   return `Se on ${formattedDifference} prosenttiyksikköä ${direction} kuin koko maassa.`
+}
+
+function getInsight(selectedMunicipality, nationalShare) {
+  if (!isCalculatedShare(selectedMunicipality.share)) {
+    return {
+      tone: 'neutral',
+      text: 'Kunnalle ei voi laskea osuutta, mutta raakaluvut näkyvät alla.',
+    }
+  }
+
+  if (!isCalculatedShare(nationalShare)) {
+    return {
+      tone: 'neutral',
+      text: 'Koko maan vertailuarvoa ei voi laskea.',
+    }
+  }
+
+  const difference = selectedMunicipality.share - nationalShare
+
+  if (Math.abs(difference) < 0.005) {
+    return {
+      tone: 'neutral',
+      text: 'Kunnan osuus on samaa tasoa kuin koko maan osuus.',
+    }
+  }
+
+  if (difference > 0) {
+    return {
+      tone: 'above',
+      text: 'Kunnan osuus on koko maan osuutta suurempi.',
+    }
+  }
+
+  return {
+    tone: 'below',
+    text: 'Kunnan osuus on koko maan osuutta pienempi.',
+  }
 }
 
 function ComparisonBar({ label, share, variant = 'primary' }) {
@@ -125,6 +162,7 @@ function App() {
     selectedMunicipality.totalChildren > 0 &&
     selectedMunicipality.foreignLanguageChildren === 0
   const hasNoChildren = selectedMunicipality.totalChildren === 0
+  const insight = getInsight(selectedMunicipality, nationalData.share)
   const mainSentence = `${getLocationText(
     selectedMunicipality.municipality
   )} vieraskielisten lasten osuus varhaiskasvatuksessa on ${formatPercentageText(
@@ -135,7 +173,7 @@ function App() {
     <main className="page">
       <header className="intro">
         <p className="eyebrow">Kuntavertailu</p>
-        <h1>Katso, kuinka vieraskielisten lasten osuus vaihtelee kunnittain</h1>
+        <h1>Vieraskielisten lasten osuus varhaiskasvatuksessa</h1>
         <p>
           Valitse kunta ja katso, kuinka suuri osuus varhaiskasvatuksessa
           olevista lapsista on vieraskielisiä. Vertailukohtana on koko maan
@@ -183,7 +221,10 @@ function App() {
           <div className="result-kicker">Kunnan tilanne</div>
           <div className="result-lede">
             <h2>{selectedMunicipality.municipality}</h2>
-            <p className="main-percentage">
+            <p
+              key={`${selectedMunicipality.municipalityCode}-percentage`}
+              className="main-percentage"
+            >
               {formatPercentage(selectedMunicipality.share)}
             </p>
           </div>
@@ -205,6 +246,8 @@ function App() {
               )}
             </>
           )}
+
+          <p className={`insight ${insight.tone}`}>{insight.text}</p>
 
           <p className="comparison-sentence">
             {getComparisonText(selectedMunicipality, nationalData.share)}
