@@ -1,0 +1,2172 @@
+[
+  {
+    "municipalityCode": "KU020",
+    "municipality": "Akaa",
+    "totalChildren": 552,
+    "foreignLanguageChildren": 14,
+    "share": 2.54
+  },
+  {
+    "municipalityCode": "KU005",
+    "municipality": "Alajärvi",
+    "totalChildren": 371,
+    "foreignLanguageChildren": 16,
+    "share": 4.31
+  },
+  {
+    "municipalityCode": "KU009",
+    "municipality": "Alavieska",
+    "totalChildren": 103,
+    "foreignLanguageChildren": 4,
+    "share": 3.88
+  },
+  {
+    "municipalityCode": "KU010",
+    "municipality": "Alavus",
+    "totalChildren": 466,
+    "foreignLanguageChildren": 14,
+    "share": 3
+  },
+  {
+    "municipalityCode": "KU016",
+    "municipality": "Asikkala",
+    "totalChildren": 251,
+    "foreignLanguageChildren": 5,
+    "share": 1.99
+  },
+  {
+    "municipalityCode": "KU018",
+    "municipality": "Askola",
+    "totalChildren": 211,
+    "foreignLanguageChildren": 6,
+    "share": 2.84
+  },
+  {
+    "municipalityCode": "KU019",
+    "municipality": "Aura",
+    "totalChildren": 210,
+    "foreignLanguageChildren": 3,
+    "share": 1.43
+  },
+  {
+    "municipalityCode": "KU035",
+    "municipality": "Brändö",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU043",
+    "municipality": "Eckerö",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU046",
+    "municipality": "Enonkoski",
+    "totalChildren": 37,
+    "foreignLanguageChildren": 1,
+    "share": 2.7
+  },
+  {
+    "municipalityCode": "KU047",
+    "municipality": "Enontekiö",
+    "totalChildren": 36,
+    "foreignLanguageChildren": 3,
+    "share": 8.33
+  },
+  {
+    "municipalityCode": "KU049",
+    "municipality": "Espoo",
+    "totalChildren": 16928,
+    "foreignLanguageChildren": 4959,
+    "share": 29.29
+  },
+  {
+    "municipalityCode": "KU050",
+    "municipality": "Eura",
+    "totalChildren": 356,
+    "foreignLanguageChildren": 21,
+    "share": 5.9
+  },
+  {
+    "municipalityCode": "KU051",
+    "municipality": "Eurajoki",
+    "totalChildren": 343,
+    "foreignLanguageChildren": 11,
+    "share": 3.21
+  },
+  {
+    "municipalityCode": "KU052",
+    "municipality": "Evijärvi",
+    "totalChildren": 81,
+    "foreignLanguageChildren": 1,
+    "share": 1.23
+  },
+  {
+    "municipalityCode": "KU060",
+    "municipality": "Finström",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU061",
+    "municipality": "Forssa",
+    "totalChildren": 529,
+    "foreignLanguageChildren": 105,
+    "share": 19.85
+  },
+  {
+    "municipalityCode": "KU062",
+    "municipality": "Föglö",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU065",
+    "municipality": "Geta",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU069",
+    "municipality": "Haapajärvi",
+    "totalChildren": 241,
+    "foreignLanguageChildren": 7,
+    "share": 2.9
+  },
+  {
+    "municipalityCode": "KU071",
+    "municipality": "Haapavesi",
+    "totalChildren": 257,
+    "foreignLanguageChildren": 12,
+    "share": 4.67
+  },
+  {
+    "municipalityCode": "KU072",
+    "municipality": "Hailuoto",
+    "totalChildren": 24,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU074",
+    "municipality": "Halsua",
+    "totalChildren": 28,
+    "foreignLanguageChildren": 4,
+    "share": 14.29
+  },
+  {
+    "municipalityCode": "KU075",
+    "municipality": "Hamina",
+    "totalChildren": 614,
+    "foreignLanguageChildren": 60,
+    "share": 9.77
+  },
+  {
+    "municipalityCode": "KU076",
+    "municipality": "Hammarland",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU077",
+    "municipality": "Hankasalmi",
+    "totalChildren": 109,
+    "foreignLanguageChildren": 1,
+    "share": 0.92
+  },
+  {
+    "municipalityCode": "KU078",
+    "municipality": "Hanko",
+    "totalChildren": 228,
+    "foreignLanguageChildren": 8,
+    "share": 3.51
+  },
+  {
+    "municipalityCode": "KU079",
+    "municipality": "Harjavalta",
+    "totalChildren": 239,
+    "foreignLanguageChildren": 12,
+    "share": 5.02
+  },
+  {
+    "municipalityCode": "KU081",
+    "municipality": "Hartola",
+    "totalChildren": 53,
+    "foreignLanguageChildren": 3,
+    "share": 5.66
+  },
+  {
+    "municipalityCode": "KU082",
+    "municipality": "Hattula",
+    "totalChildren": 369,
+    "foreignLanguageChildren": 6,
+    "share": 1.63
+  },
+  {
+    "municipalityCode": "KU086",
+    "municipality": "Hausjärvi",
+    "totalChildren": 291,
+    "foreignLanguageChildren": 9,
+    "share": 3.09
+  },
+  {
+    "municipalityCode": "KU111",
+    "municipality": "Heinola",
+    "totalChildren": 425,
+    "foreignLanguageChildren": 37,
+    "share": 8.71
+  },
+  {
+    "municipalityCode": "KU090",
+    "municipality": "Heinävesi",
+    "totalChildren": 44,
+    "foreignLanguageChildren": 4,
+    "share": 9.09
+  },
+  {
+    "municipalityCode": "KU091",
+    "municipality": "Helsinki",
+    "totalChildren": 30870,
+    "foreignLanguageChildren": 7313,
+    "share": 23.69
+  },
+  {
+    "municipalityCode": "KU097",
+    "municipality": "Hirvensalmi",
+    "totalChildren": 48,
+    "foreignLanguageChildren": 3,
+    "share": 6.25
+  },
+  {
+    "municipalityCode": "KU098",
+    "municipality": "Hollola",
+    "totalChildren": 949,
+    "foreignLanguageChildren": 44,
+    "share": 4.64
+  },
+  {
+    "municipalityCode": "KU102",
+    "municipality": "Huittinen",
+    "totalChildren": 338,
+    "foreignLanguageChildren": 26,
+    "share": 7.69
+  },
+  {
+    "municipalityCode": "KU103",
+    "municipality": "Humppila",
+    "totalChildren": 76,
+    "foreignLanguageChildren": 2,
+    "share": 2.63
+  },
+  {
+    "municipalityCode": "KU105",
+    "municipality": "Hyrynsalmi",
+    "totalChildren": 47,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU106",
+    "municipality": "Hyvinkää",
+    "totalChildren": 1898,
+    "foreignLanguageChildren": 239,
+    "share": 12.59
+  },
+  {
+    "municipalityCode": "KU108",
+    "municipality": "Hämeenkyrö",
+    "totalChildren": 440,
+    "foreignLanguageChildren": 6,
+    "share": 1.36
+  },
+  {
+    "municipalityCode": "KU109",
+    "municipality": "Hämeenlinna",
+    "totalChildren": 2700,
+    "foreignLanguageChildren": 308,
+    "share": 11.41
+  },
+  {
+    "municipalityCode": "KU139",
+    "municipality": "Ii",
+    "totalChildren": 479,
+    "foreignLanguageChildren": 2,
+    "share": 0.42
+  },
+  {
+    "municipalityCode": "KU140",
+    "municipality": "Iisalmi",
+    "totalChildren": 751,
+    "foreignLanguageChildren": 55,
+    "share": 7.32
+  },
+  {
+    "municipalityCode": "KU142",
+    "municipality": "Iitti",
+    "totalChildren": 233,
+    "foreignLanguageChildren": 2,
+    "share": 0.86
+  },
+  {
+    "municipalityCode": "KU143",
+    "municipality": "Ikaalinen",
+    "totalChildren": 196,
+    "foreignLanguageChildren": 18,
+    "share": 9.18
+  },
+  {
+    "municipalityCode": "KU145",
+    "municipality": "Ilmajoki",
+    "totalChildren": 724,
+    "foreignLanguageChildren": 11,
+    "share": 1.52
+  },
+  {
+    "municipalityCode": "KU146",
+    "municipality": "Ilomantsi",
+    "totalChildren": 68,
+    "foreignLanguageChildren": 4,
+    "share": 5.88
+  },
+  {
+    "municipalityCode": "KU153",
+    "municipality": "Imatra",
+    "totalChildren": 543,
+    "foreignLanguageChildren": 44,
+    "share": 8.1
+  },
+  {
+    "municipalityCode": "KU148",
+    "municipality": "Inari",
+    "totalChildren": 210,
+    "foreignLanguageChildren": 16,
+    "share": 7.62
+  },
+  {
+    "municipalityCode": "KU149",
+    "municipality": "Inkoo",
+    "totalChildren": 189,
+    "foreignLanguageChildren": 8,
+    "share": 4.23
+  },
+  {
+    "municipalityCode": "KU151",
+    "municipality": "Isojoki",
+    "totalChildren": 44,
+    "foreignLanguageChildren": 6,
+    "share": 13.64
+  },
+  {
+    "municipalityCode": "KU152",
+    "municipality": "Isokyrö",
+    "totalChildren": 121,
+    "foreignLanguageChildren": 4,
+    "share": 3.31
+  },
+  {
+    "municipalityCode": "KU165",
+    "municipality": "Janakkala",
+    "totalChildren": 699,
+    "foreignLanguageChildren": 32,
+    "share": 4.58
+  },
+  {
+    "municipalityCode": "KU167",
+    "municipality": "Joensuu",
+    "totalChildren": 2923,
+    "foreignLanguageChildren": 290,
+    "share": 9.92
+  },
+  {
+    "municipalityCode": "KU169",
+    "municipality": "Jokioinen",
+    "totalChildren": 174,
+    "foreignLanguageChildren": 7,
+    "share": 4.02
+  },
+  {
+    "municipalityCode": "KU170",
+    "municipality": "Jomala",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU171",
+    "municipality": "Joroinen",
+    "totalChildren": 157,
+    "foreignLanguageChildren": 15,
+    "share": 9.55
+  },
+  {
+    "municipalityCode": "KU172",
+    "municipality": "Joutsa",
+    "totalChildren": 105,
+    "foreignLanguageChildren": 3,
+    "share": 2.86
+  },
+  {
+    "municipalityCode": "KU176",
+    "municipality": "Juuka",
+    "totalChildren": 84,
+    "foreignLanguageChildren": 7,
+    "share": 8.33
+  },
+  {
+    "municipalityCode": "KU177",
+    "municipality": "Juupajoki",
+    "totalChildren": 54,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU178",
+    "municipality": "Juva",
+    "totalChildren": 149,
+    "foreignLanguageChildren": 8,
+    "share": 5.37
+  },
+  {
+    "municipalityCode": "KU179",
+    "municipality": "Jyväskylä",
+    "totalChildren": 6263,
+    "foreignLanguageChildren": 578,
+    "share": 9.23
+  },
+  {
+    "municipalityCode": "KU181",
+    "municipality": "Jämijärvi",
+    "totalChildren": 53,
+    "foreignLanguageChildren": 2,
+    "share": 3.77
+  },
+  {
+    "municipalityCode": "KU182",
+    "municipality": "Jämsä",
+    "totalChildren": 490,
+    "foreignLanguageChildren": 34,
+    "share": 6.94
+  },
+  {
+    "municipalityCode": "KU186",
+    "municipality": "Järvenpää",
+    "totalChildren": 2271,
+    "foreignLanguageChildren": 219,
+    "share": 9.64
+  },
+  {
+    "municipalityCode": "KU202",
+    "municipality": "Kaarina",
+    "totalChildren": 2118,
+    "foreignLanguageChildren": 138,
+    "share": 6.52
+  },
+  {
+    "municipalityCode": "KU204",
+    "municipality": "Kaavi",
+    "totalChildren": 44,
+    "foreignLanguageChildren": 1,
+    "share": 2.27
+  },
+  {
+    "municipalityCode": "KU205",
+    "municipality": "Kajaani",
+    "totalChildren": 1222,
+    "foreignLanguageChildren": 148,
+    "share": 12.11
+  },
+  {
+    "municipalityCode": "KU208",
+    "municipality": "Kalajoki",
+    "totalChildren": 573,
+    "foreignLanguageChildren": 27,
+    "share": 4.71
+  },
+  {
+    "municipalityCode": "KU211",
+    "municipality": "Kangasala",
+    "totalChildren": 1769,
+    "foreignLanguageChildren": 54,
+    "share": 3.05
+  },
+  {
+    "municipalityCode": "KU213",
+    "municipality": "Kangasniemi",
+    "totalChildren": 156,
+    "foreignLanguageChildren": 6,
+    "share": 3.85
+  },
+  {
+    "municipalityCode": "KU214",
+    "municipality": "Kankaanpää",
+    "totalChildren": 429,
+    "foreignLanguageChildren": 51,
+    "share": 11.89
+  },
+  {
+    "municipalityCode": "KU216",
+    "municipality": "Kannonkoski",
+    "totalChildren": 37,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU217",
+    "municipality": "Kannus",
+    "totalChildren": 200,
+    "foreignLanguageChildren": 3,
+    "share": 1.5
+  },
+  {
+    "municipalityCode": "KU218",
+    "municipality": "Karijoki",
+    "totalChildren": 29,
+    "foreignLanguageChildren": 2,
+    "share": 6.9
+  },
+  {
+    "municipalityCode": "KU224",
+    "municipality": "Karkkila",
+    "totalChildren": 257,
+    "foreignLanguageChildren": 33,
+    "share": 12.84
+  },
+  {
+    "municipalityCode": "KU226",
+    "municipality": "Karstula",
+    "totalChildren": 88,
+    "foreignLanguageChildren": 7,
+    "share": 7.95
+  },
+  {
+    "municipalityCode": "KU230",
+    "municipality": "Karvia",
+    "totalChildren": 56,
+    "foreignLanguageChildren": 6,
+    "share": 10.71
+  },
+  {
+    "municipalityCode": "KU231",
+    "municipality": "Kaskinen",
+    "totalChildren": 41,
+    "foreignLanguageChildren": 17,
+    "share": 41.46
+  },
+  {
+    "municipalityCode": "KU232",
+    "municipality": "Kauhajoki",
+    "totalChildren": 356,
+    "foreignLanguageChildren": 23,
+    "share": 6.46
+  },
+  {
+    "municipalityCode": "KU233",
+    "municipality": "Kauhava",
+    "totalChildren": 492,
+    "foreignLanguageChildren": 43,
+    "share": 8.74
+  },
+  {
+    "municipalityCode": "KU235",
+    "municipality": "Kauniainen",
+    "totalChildren": 605,
+    "foreignLanguageChildren": 85,
+    "share": 14.05
+  },
+  {
+    "municipalityCode": "KU236",
+    "municipality": "Kaustinen",
+    "totalChildren": 167,
+    "foreignLanguageChildren": 7,
+    "share": 4.19
+  },
+  {
+    "municipalityCode": "KU239",
+    "municipality": "Keitele",
+    "totalChildren": 58,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU240",
+    "municipality": "Kemi",
+    "totalChildren": 479,
+    "foreignLanguageChildren": 40,
+    "share": 8.35
+  },
+  {
+    "municipalityCode": "KU320",
+    "municipality": "Kemijärvi",
+    "totalChildren": 190,
+    "foreignLanguageChildren": 13,
+    "share": 6.84
+  },
+  {
+    "municipalityCode": "KU241",
+    "municipality": "Keminmaa",
+    "totalChildren": 311,
+    "foreignLanguageChildren": 5,
+    "share": 1.61
+  },
+  {
+    "municipalityCode": "KU322",
+    "municipality": "Kemiönsaari",
+    "totalChildren": 200,
+    "foreignLanguageChildren": 10,
+    "share": 5
+  },
+  {
+    "municipalityCode": "KU244",
+    "municipality": "Kempele",
+    "totalChildren": 1331,
+    "foreignLanguageChildren": 6,
+    "share": 0.45
+  },
+  {
+    "municipalityCode": "KU245",
+    "municipality": "Kerava",
+    "totalChildren": 1850,
+    "foreignLanguageChildren": 482,
+    "share": 26.05
+  },
+  {
+    "municipalityCode": "KU249",
+    "municipality": "Keuruu",
+    "totalChildren": 262,
+    "foreignLanguageChildren": 17,
+    "share": 6.49
+  },
+  {
+    "municipalityCode": "KU250",
+    "municipality": "Kihniö",
+    "totalChildren": 35,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU256",
+    "municipality": "Kinnula",
+    "totalChildren": 71,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU257",
+    "municipality": "Kirkkonummi",
+    "totalChildren": 2204,
+    "foreignLanguageChildren": 313,
+    "share": 14.2
+  },
+  {
+    "municipalityCode": "KU260",
+    "municipality": "Kitee",
+    "totalChildren": 234,
+    "foreignLanguageChildren": 31,
+    "share": 13.25
+  },
+  {
+    "municipalityCode": "KU261",
+    "municipality": "Kittilä",
+    "totalChildren": 292,
+    "foreignLanguageChildren": 18,
+    "share": 6.16
+  },
+  {
+    "municipalityCode": "KU263",
+    "municipality": "Kiuruvesi",
+    "totalChildren": 320,
+    "foreignLanguageChildren": 10,
+    "share": 3.13
+  },
+  {
+    "municipalityCode": "KU265",
+    "municipality": "Kivijärvi",
+    "totalChildren": 34,
+    "foreignLanguageChildren": 1,
+    "share": 2.94
+  },
+  {
+    "municipalityCode": "KU271",
+    "municipality": "Kokemäki",
+    "totalChildren": 217,
+    "foreignLanguageChildren": 7,
+    "share": 3.23
+  },
+  {
+    "municipalityCode": "KU272",
+    "municipality": "Kokkola",
+    "totalChildren": 2334,
+    "foreignLanguageChildren": 187,
+    "share": 8.01
+  },
+  {
+    "municipalityCode": "SSS",
+    "municipality": "Koko Suomi",
+    "totalChildren": 233772,
+    "foreignLanguageChildren": 32520,
+    "share": 13.91
+  },
+  {
+    "municipalityCode": "KU273",
+    "municipality": "Kolari",
+    "totalChildren": 161,
+    "foreignLanguageChildren": 4,
+    "share": 2.48
+  },
+  {
+    "municipalityCode": "KU275",
+    "municipality": "Konnevesi",
+    "totalChildren": 72,
+    "foreignLanguageChildren": 2,
+    "share": 2.78
+  },
+  {
+    "municipalityCode": "KU276",
+    "municipality": "Kontiolahti",
+    "totalChildren": 786,
+    "foreignLanguageChildren": 7,
+    "share": 0.89
+  },
+  {
+    "municipalityCode": "KU280",
+    "municipality": "Korsnäs",
+    "totalChildren": 68,
+    "foreignLanguageChildren": 14,
+    "share": 20.59
+  },
+  {
+    "municipalityCode": "KU284",
+    "municipality": "Koski Tl",
+    "totalChildren": 76,
+    "foreignLanguageChildren": 1,
+    "share": 1.32
+  },
+  {
+    "municipalityCode": "KU285",
+    "municipality": "Kotka",
+    "totalChildren": 1661,
+    "foreignLanguageChildren": 237,
+    "share": 14.27
+  },
+  {
+    "municipalityCode": "KU286",
+    "municipality": "Kouvola",
+    "totalChildren": 2589,
+    "foreignLanguageChildren": 196,
+    "share": 7.57
+  },
+  {
+    "municipalityCode": "KU287",
+    "municipality": "Kristiinankaupunki",
+    "totalChildren": 220,
+    "foreignLanguageChildren": 30,
+    "share": 13.64
+  },
+  {
+    "municipalityCode": "KU288",
+    "municipality": "Kruunupyy",
+    "totalChildren": 276,
+    "foreignLanguageChildren": 10,
+    "share": 3.62
+  },
+  {
+    "municipalityCode": "KU290",
+    "municipality": "Kuhmo",
+    "totalChildren": 163,
+    "foreignLanguageChildren": 7,
+    "share": 4.29
+  },
+  {
+    "municipalityCode": "KU291",
+    "municipality": "Kuhmoinen",
+    "totalChildren": 43,
+    "foreignLanguageChildren": 1,
+    "share": 2.33
+  },
+  {
+    "municipalityCode": "KU295",
+    "municipality": "Kumlinge",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU297",
+    "municipality": "Kuopio",
+    "totalChildren": 5360,
+    "foreignLanguageChildren": 464,
+    "share": 8.66
+  },
+  {
+    "municipalityCode": "KU300",
+    "municipality": "Kuortane",
+    "totalChildren": 108,
+    "foreignLanguageChildren": 4,
+    "share": 3.7
+  },
+  {
+    "municipalityCode": "KU301",
+    "municipality": "Kurikka",
+    "totalChildren": 705,
+    "foreignLanguageChildren": 20,
+    "share": 2.84
+  },
+  {
+    "municipalityCode": "KU304",
+    "municipality": "Kustavi",
+    "totalChildren": 17,
+    "foreignLanguageChildren": 1,
+    "share": 5.88
+  },
+  {
+    "municipalityCode": "KU305",
+    "municipality": "Kuusamo",
+    "totalChildren": 465,
+    "foreignLanguageChildren": 20,
+    "share": 4.3
+  },
+  {
+    "municipalityCode": "KU312",
+    "municipality": "Kyyjärvi",
+    "totalChildren": 31,
+    "foreignLanguageChildren": 1,
+    "share": 3.23
+  },
+  {
+    "municipalityCode": "KU316",
+    "municipality": "Kärkölä",
+    "totalChildren": 77,
+    "foreignLanguageChildren": 2,
+    "share": 2.6
+  },
+  {
+    "municipalityCode": "KU317",
+    "municipality": "Kärsämäki",
+    "totalChildren": 98,
+    "foreignLanguageChildren": 1,
+    "share": 1.02
+  },
+  {
+    "municipalityCode": "KU318",
+    "municipality": "Kökar",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU398",
+    "municipality": "Lahti",
+    "totalChildren": 4768,
+    "foreignLanguageChildren": 592,
+    "share": 12.42
+  },
+  {
+    "municipalityCode": "KU399",
+    "municipality": "Laihia",
+    "totalChildren": 290,
+    "foreignLanguageChildren": 8,
+    "share": 2.76
+  },
+  {
+    "municipalityCode": "KU400",
+    "municipality": "Laitila",
+    "totalChildren": 295,
+    "foreignLanguageChildren": 51,
+    "share": 17.29
+  },
+  {
+    "municipalityCode": "KU407",
+    "municipality": "Lapinjärvi",
+    "totalChildren": 75,
+    "foreignLanguageChildren": 7,
+    "share": 9.33
+  },
+  {
+    "municipalityCode": "KU402",
+    "municipality": "Lapinlahti",
+    "totalChildren": 288,
+    "foreignLanguageChildren": 10,
+    "share": 3.47
+  },
+  {
+    "municipalityCode": "KU403",
+    "municipality": "Lappajärvi",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU405",
+    "municipality": "Lappeenranta",
+    "totalChildren": 2601,
+    "foreignLanguageChildren": 304,
+    "share": 11.69
+  },
+  {
+    "municipalityCode": "KU408",
+    "municipality": "Lapua",
+    "totalChildren": 601,
+    "foreignLanguageChildren": 45,
+    "share": 7.49
+  },
+  {
+    "municipalityCode": "KU410",
+    "municipality": "Laukaa",
+    "totalChildren": 1039,
+    "foreignLanguageChildren": 15,
+    "share": 1.44
+  },
+  {
+    "municipalityCode": "KU416",
+    "municipality": "Lemi",
+    "totalChildren": 98,
+    "foreignLanguageChildren": 1,
+    "share": 1.02
+  },
+  {
+    "municipalityCode": "KU417",
+    "municipality": "Lemland",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU418",
+    "municipality": "Lempäälä",
+    "totalChildren": 1106,
+    "foreignLanguageChildren": 29,
+    "share": 2.62
+  },
+  {
+    "municipalityCode": "KU420",
+    "municipality": "Leppävirta",
+    "totalChildren": 326,
+    "foreignLanguageChildren": 12,
+    "share": 3.68
+  },
+  {
+    "municipalityCode": "KU421",
+    "municipality": "Lestijärvi",
+    "totalChildren": 13,
+    "foreignLanguageChildren": 1,
+    "share": 7.69
+  },
+  {
+    "municipalityCode": "KU422",
+    "municipality": "Lieksa",
+    "totalChildren": 221,
+    "foreignLanguageChildren": 36,
+    "share": 16.29
+  },
+  {
+    "municipalityCode": "KU423",
+    "municipality": "Lieto",
+    "totalChildren": 1130,
+    "foreignLanguageChildren": 49,
+    "share": 4.34
+  },
+  {
+    "municipalityCode": "KU425",
+    "municipality": "Liminka",
+    "totalChildren": 713,
+    "foreignLanguageChildren": 6,
+    "share": 0.84
+  },
+  {
+    "municipalityCode": "KU426",
+    "municipality": "Liperi",
+    "totalChildren": 524,
+    "foreignLanguageChildren": 12,
+    "share": 2.29
+  },
+  {
+    "municipalityCode": "KU444",
+    "municipality": "Lohja",
+    "totalChildren": 1735,
+    "foreignLanguageChildren": 140,
+    "share": 8.07
+  },
+  {
+    "municipalityCode": "KU430",
+    "municipality": "Loimaa",
+    "totalChildren": 543,
+    "foreignLanguageChildren": 45,
+    "share": 8.29
+  },
+  {
+    "municipalityCode": "KU433",
+    "municipality": "Loppi",
+    "totalChildren": 286,
+    "foreignLanguageChildren": 14,
+    "share": 4.9
+  },
+  {
+    "municipalityCode": "KU434",
+    "municipality": "Loviisa",
+    "totalChildren": 497,
+    "foreignLanguageChildren": 28,
+    "share": 5.63
+  },
+  {
+    "municipalityCode": "KU435",
+    "municipality": "Luhanka",
+    "totalChildren": 10,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU436",
+    "municipality": "Lumijoki",
+    "totalChildren": 100,
+    "foreignLanguageChildren": 8,
+    "share": 8
+  },
+  {
+    "municipalityCode": "KU438",
+    "municipality": "Lumparland",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU440",
+    "municipality": "Luoto",
+    "totalChildren": 373,
+    "foreignLanguageChildren": 12,
+    "share": 3.22
+  },
+  {
+    "municipalityCode": "KU441",
+    "municipality": "Luumäki",
+    "totalChildren": 131,
+    "foreignLanguageChildren": 14,
+    "share": 10.69
+  },
+  {
+    "municipalityCode": "KU475",
+    "municipality": "Maalahti",
+    "totalChildren": 287,
+    "foreignLanguageChildren": 18,
+    "share": 6.27
+  },
+  {
+    "municipalityCode": "KU478",
+    "municipality": "Maarianhamina - Mariehamn",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU480",
+    "municipality": "Marttila",
+    "totalChildren": 79,
+    "foreignLanguageChildren": 1,
+    "share": 1.27
+  },
+  {
+    "municipalityCode": "KU481",
+    "municipality": "Masku",
+    "totalChildren": 505,
+    "foreignLanguageChildren": 17,
+    "share": 3.37
+  },
+  {
+    "municipalityCode": "KU483",
+    "municipality": "Merijärvi",
+    "totalChildren": 23,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU484",
+    "municipality": "Merikarvia",
+    "totalChildren": 99,
+    "foreignLanguageChildren": 3,
+    "share": 3.03
+  },
+  {
+    "municipalityCode": "KU489",
+    "municipality": "Miehikkälä",
+    "totalChildren": 41,
+    "foreignLanguageChildren": 3,
+    "share": 7.32
+  },
+  {
+    "municipalityCode": "KU491",
+    "municipality": "Mikkeli",
+    "totalChildren": 1928,
+    "foreignLanguageChildren": 156,
+    "share": 8.09
+  },
+  {
+    "municipalityCode": "KU494",
+    "municipality": "Muhos",
+    "totalChildren": 426,
+    "foreignLanguageChildren": 5,
+    "share": 1.17
+  },
+  {
+    "municipalityCode": "KU495",
+    "municipality": "Multia",
+    "totalChildren": 37,
+    "foreignLanguageChildren": 3,
+    "share": 8.11
+  },
+  {
+    "municipalityCode": "KU498",
+    "municipality": "Muonio",
+    "totalChildren": 69,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU499",
+    "municipality": "Mustasaari",
+    "totalChildren": 1095,
+    "foreignLanguageChildren": 25,
+    "share": 2.28
+  },
+  {
+    "municipalityCode": "KU500",
+    "municipality": "Muurame",
+    "totalChildren": 514,
+    "foreignLanguageChildren": 8,
+    "share": 1.56
+  },
+  {
+    "municipalityCode": "KU503",
+    "municipality": "Mynämäki",
+    "totalChildren": 333,
+    "foreignLanguageChildren": 21,
+    "share": 6.31
+  },
+  {
+    "municipalityCode": "KU504",
+    "municipality": "Myrskylä",
+    "totalChildren": 46,
+    "foreignLanguageChildren": 2,
+    "share": 4.35
+  },
+  {
+    "municipalityCode": "KU505",
+    "municipality": "Mäntsälä",
+    "totalChildren": 915,
+    "foreignLanguageChildren": 59,
+    "share": 6.45
+  },
+  {
+    "municipalityCode": "KU508",
+    "municipality": "Mänttä-Vilppula",
+    "totalChildren": 251,
+    "foreignLanguageChildren": 17,
+    "share": 6.77
+  },
+  {
+    "municipalityCode": "KU507",
+    "municipality": "Mäntyharju",
+    "totalChildren": 117,
+    "foreignLanguageChildren": 7,
+    "share": 5.98
+  },
+  {
+    "municipalityCode": "KU529",
+    "municipality": "Naantali",
+    "totalChildren": 813,
+    "foreignLanguageChildren": 32,
+    "share": 3.94
+  },
+  {
+    "municipalityCode": "KU531",
+    "municipality": "Nakkila",
+    "totalChildren": 155,
+    "foreignLanguageChildren": 3,
+    "share": 1.94
+  },
+  {
+    "municipalityCode": "KU535",
+    "municipality": "Nivala",
+    "totalChildren": 438,
+    "foreignLanguageChildren": 6,
+    "share": 1.37
+  },
+  {
+    "municipalityCode": "KU536",
+    "municipality": "Nokia",
+    "totalChildren": 1805,
+    "foreignLanguageChildren": 62,
+    "share": 3.43
+  },
+  {
+    "municipalityCode": "KU538",
+    "municipality": "Nousiainen",
+    "totalChildren": 240,
+    "foreignLanguageChildren": 4,
+    "share": 1.67
+  },
+  {
+    "municipalityCode": "KU541",
+    "municipality": "Nurmes",
+    "totalChildren": 265,
+    "foreignLanguageChildren": 8,
+    "share": 3.02
+  },
+  {
+    "municipalityCode": "KU543",
+    "municipality": "Nurmijärvi",
+    "totalChildren": 2259,
+    "foreignLanguageChildren": 243,
+    "share": 10.76
+  },
+  {
+    "municipalityCode": "KU545",
+    "municipality": "Närpiö",
+    "totalChildren": 378,
+    "foreignLanguageChildren": 124,
+    "share": 32.8
+  },
+  {
+    "municipalityCode": "KU560",
+    "municipality": "Orimattila",
+    "totalChildren": 638,
+    "foreignLanguageChildren": 23,
+    "share": 3.61
+  },
+  {
+    "municipalityCode": "KU561",
+    "municipality": "Oripää",
+    "totalChildren": 49,
+    "foreignLanguageChildren": 5,
+    "share": 10.2
+  },
+  {
+    "municipalityCode": "KU562",
+    "municipality": "Orivesi",
+    "totalChildren": 293,
+    "foreignLanguageChildren": 5,
+    "share": 1.71
+  },
+  {
+    "municipalityCode": "KU563",
+    "municipality": "Oulainen",
+    "totalChildren": 213,
+    "foreignLanguageChildren": 7,
+    "share": 3.29
+  },
+  {
+    "municipalityCode": "KU564",
+    "municipality": "Oulu",
+    "totalChildren": 10367,
+    "foreignLanguageChildren": 843,
+    "share": 8.13
+  },
+  {
+    "municipalityCode": "KU309",
+    "municipality": "Outokumpu",
+    "totalChildren": 173,
+    "foreignLanguageChildren": 26,
+    "share": 15.03
+  },
+  {
+    "municipalityCode": "KU576",
+    "municipality": "Padasjoki",
+    "totalChildren": 47,
+    "foreignLanguageChildren": 1,
+    "share": 2.13
+  },
+  {
+    "municipalityCode": "KU577",
+    "municipality": "Paimio",
+    "totalChildren": 611,
+    "foreignLanguageChildren": 28,
+    "share": 4.58
+  },
+  {
+    "municipalityCode": "KU578",
+    "municipality": "Paltamo",
+    "totalChildren": 93,
+    "foreignLanguageChildren": 4,
+    "share": 4.3
+  },
+  {
+    "municipalityCode": "KU445",
+    "municipality": "Parainen",
+    "totalChildren": 677,
+    "foreignLanguageChildren": 36,
+    "share": 5.32
+  },
+  {
+    "municipalityCode": "KU580",
+    "municipality": "Parikkala",
+    "totalChildren": 97,
+    "foreignLanguageChildren": 1,
+    "share": 1.03
+  },
+  {
+    "municipalityCode": "KU581",
+    "municipality": "Parkano",
+    "totalChildren": 207,
+    "foreignLanguageChildren": 12,
+    "share": 5.8
+  },
+  {
+    "municipalityCode": "KU599",
+    "municipality": "Pedersören kunta",
+    "totalChildren": 659,
+    "foreignLanguageChildren": 23,
+    "share": 3.49
+  },
+  {
+    "municipalityCode": "KU583",
+    "municipality": "Pelkosenniemi",
+    "totalChildren": 30,
+    "foreignLanguageChildren": 2,
+    "share": 6.67
+  },
+  {
+    "municipalityCode": "KU854",
+    "municipality": "Pello",
+    "totalChildren": 80,
+    "foreignLanguageChildren": 2,
+    "share": 2.5
+  },
+  {
+    "municipalityCode": "KU584",
+    "municipality": "Perho",
+    "totalChildren": 114,
+    "foreignLanguageChildren": 2,
+    "share": 1.75
+  },
+  {
+    "municipalityCode": "KU588",
+    "municipality": "Pertunmaa",
+    "totalChildren": 37,
+    "foreignLanguageChildren": 1,
+    "share": 2.7
+  },
+  {
+    "municipalityCode": "KU592",
+    "municipality": "Petäjävesi",
+    "totalChildren": 181,
+    "foreignLanguageChildren": 2,
+    "share": 1.1
+  },
+  {
+    "municipalityCode": "KU593",
+    "municipality": "Pieksämäki",
+    "totalChildren": 541,
+    "foreignLanguageChildren": 70,
+    "share": 12.94
+  },
+  {
+    "municipalityCode": "KU595",
+    "municipality": "Pielavesi",
+    "totalChildren": 79,
+    "foreignLanguageChildren": 1,
+    "share": 1.27
+  },
+  {
+    "municipalityCode": "KU598",
+    "municipality": "Pietarsaari",
+    "totalChildren": 824,
+    "foreignLanguageChildren": 224,
+    "share": 27.18
+  },
+  {
+    "municipalityCode": "KU601",
+    "municipality": "Pihtipudas",
+    "totalChildren": 84,
+    "foreignLanguageChildren": 3,
+    "share": 3.57
+  },
+  {
+    "municipalityCode": "KU604",
+    "municipality": "Pirkkala",
+    "totalChildren": 910,
+    "foreignLanguageChildren": 37,
+    "share": 4.07
+  },
+  {
+    "municipalityCode": "KU607",
+    "municipality": "Polvijärvi",
+    "totalChildren": 139,
+    "foreignLanguageChildren": 1,
+    "share": 0.72
+  },
+  {
+    "municipalityCode": "KU608",
+    "municipality": "Pomarkku",
+    "totalChildren": 72,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU609",
+    "municipality": "Pori",
+    "totalChildren": 3023,
+    "foreignLanguageChildren": 215,
+    "share": 7.11
+  },
+  {
+    "municipalityCode": "KU611",
+    "municipality": "Pornainen",
+    "totalChildren": 229,
+    "foreignLanguageChildren": 5,
+    "share": 2.18
+  },
+  {
+    "municipalityCode": "KU638",
+    "municipality": "Porvoo",
+    "totalChildren": 2427,
+    "foreignLanguageChildren": 248,
+    "share": 10.22
+  },
+  {
+    "municipalityCode": "KU614",
+    "municipality": "Posio",
+    "totalChildren": 21,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU615",
+    "municipality": "Pudasjärvi",
+    "totalChildren": 206,
+    "foreignLanguageChildren": 5,
+    "share": 2.43
+  },
+  {
+    "municipalityCode": "KU616",
+    "municipality": "Pukkila",
+    "totalChildren": 47,
+    "foreignLanguageChildren": 1,
+    "share": 2.13
+  },
+  {
+    "municipalityCode": "KU619",
+    "municipality": "Punkalaidun",
+    "totalChildren": 51,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU620",
+    "municipality": "Puolanka",
+    "totalChildren": 45,
+    "foreignLanguageChildren": 5,
+    "share": 11.11
+  },
+  {
+    "municipalityCode": "KU623",
+    "municipality": "Puumala",
+    "totalChildren": 39,
+    "foreignLanguageChildren": 1,
+    "share": 2.56
+  },
+  {
+    "municipalityCode": "KU624",
+    "municipality": "Pyhtää",
+    "totalChildren": 65,
+    "foreignLanguageChildren": 3,
+    "share": 4.62
+  },
+  {
+    "municipalityCode": "KU625",
+    "municipality": "Pyhäjoki",
+    "totalChildren": 92,
+    "foreignLanguageChildren": 2,
+    "share": 2.17
+  },
+  {
+    "municipalityCode": "KU626",
+    "municipality": "Pyhäjärvi",
+    "totalChildren": 146,
+    "foreignLanguageChildren": 9,
+    "share": 6.16
+  },
+  {
+    "municipalityCode": "KU630",
+    "municipality": "Pyhäntä",
+    "totalChildren": 88,
+    "foreignLanguageChildren": 6,
+    "share": 6.82
+  },
+  {
+    "municipalityCode": "KU631",
+    "municipality": "Pyhäranta",
+    "totalChildren": 83,
+    "foreignLanguageChildren": 1,
+    "share": 1.2
+  },
+  {
+    "municipalityCode": "KU635",
+    "municipality": "Pälkäne",
+    "totalChildren": 171,
+    "foreignLanguageChildren": 5,
+    "share": 2.92
+  },
+  {
+    "municipalityCode": "KU636",
+    "municipality": "Pöytyä",
+    "totalChildren": 305,
+    "foreignLanguageChildren": 18,
+    "share": 5.9
+  },
+  {
+    "municipalityCode": "KU678",
+    "municipality": "Raahe",
+    "totalChildren": 890,
+    "foreignLanguageChildren": 54,
+    "share": 6.07
+  },
+  {
+    "municipalityCode": "KU710",
+    "municipality": "Raasepori",
+    "totalChildren": 1173,
+    "foreignLanguageChildren": 71,
+    "share": 6.05
+  },
+  {
+    "municipalityCode": "KU680",
+    "municipality": "Raisio",
+    "totalChildren": 1224,
+    "foreignLanguageChildren": 206,
+    "share": 16.83
+  },
+  {
+    "municipalityCode": "KU681",
+    "municipality": "Rantasalmi",
+    "totalChildren": 71,
+    "foreignLanguageChildren": 5,
+    "share": 7.04
+  },
+  {
+    "municipalityCode": "KU683",
+    "municipality": "Ranua",
+    "totalChildren": 128,
+    "foreignLanguageChildren": 2,
+    "share": 1.56
+  },
+  {
+    "municipalityCode": "KU684",
+    "municipality": "Rauma",
+    "totalChildren": 1424,
+    "foreignLanguageChildren": 170,
+    "share": 11.94
+  },
+  {
+    "municipalityCode": "KU686",
+    "municipality": "Rautalampi",
+    "totalChildren": 75,
+    "foreignLanguageChildren": 6,
+    "share": 8
+  },
+  {
+    "municipalityCode": "KU687",
+    "municipality": "Rautavaara",
+    "totalChildren": 19,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU689",
+    "municipality": "Rautjärvi",
+    "totalChildren": 63,
+    "foreignLanguageChildren": 17,
+    "share": 26.98
+  },
+  {
+    "municipalityCode": "KU691",
+    "municipality": "Reisjärvi",
+    "totalChildren": 88,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU694",
+    "municipality": "Riihimäki",
+    "totalChildren": 1024,
+    "foreignLanguageChildren": 107,
+    "share": 10.45
+  },
+  {
+    "municipalityCode": "KU697",
+    "municipality": "Ristijärvi",
+    "totalChildren": 33,
+    "foreignLanguageChildren": 2,
+    "share": 6.06
+  },
+  {
+    "municipalityCode": "KU698",
+    "municipality": "Rovaniemi",
+    "totalChildren": 3257,
+    "foreignLanguageChildren": 197,
+    "share": 6.05
+  },
+  {
+    "municipalityCode": "KU700",
+    "municipality": "Ruokolahti",
+    "totalChildren": 112,
+    "foreignLanguageChildren": 3,
+    "share": 2.68
+  },
+  {
+    "municipalityCode": "KU702",
+    "municipality": "Ruovesi",
+    "totalChildren": 109,
+    "foreignLanguageChildren": 10,
+    "share": 9.17
+  },
+  {
+    "municipalityCode": "KU704",
+    "municipality": "Rusko",
+    "totalChildren": 436,
+    "foreignLanguageChildren": 15,
+    "share": 3.44
+  },
+  {
+    "municipalityCode": "KU707",
+    "municipality": "Rääkkylä",
+    "totalChildren": 17,
+    "foreignLanguageChildren": 2,
+    "share": 11.76
+  },
+  {
+    "municipalityCode": "KU729",
+    "municipality": "Saarijärvi",
+    "totalChildren": 258,
+    "foreignLanguageChildren": 10,
+    "share": 3.88
+  },
+  {
+    "municipalityCode": "KU732",
+    "municipality": "Salla",
+    "totalChildren": 28,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU734",
+    "municipality": "Salo",
+    "totalChildren": 1786,
+    "foreignLanguageChildren": 248,
+    "share": 13.89
+  },
+  {
+    "municipalityCode": "KU736",
+    "municipality": "Saltvik",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU790",
+    "municipality": "Sastamala",
+    "totalChildren": 740,
+    "foreignLanguageChildren": 28,
+    "share": 3.78
+  },
+  {
+    "municipalityCode": "KU738",
+    "municipality": "Sauvo",
+    "totalChildren": 107,
+    "foreignLanguageChildren": 8,
+    "share": 7.48
+  },
+  {
+    "municipalityCode": "KU739",
+    "municipality": "Savitaipale",
+    "totalChildren": 84,
+    "foreignLanguageChildren": 4,
+    "share": 4.76
+  },
+  {
+    "municipalityCode": "KU740",
+    "municipality": "Savonlinna",
+    "totalChildren": 838,
+    "foreignLanguageChildren": 60,
+    "share": 7.16
+  },
+  {
+    "municipalityCode": "KU742",
+    "municipality": "Savukoski",
+    "totalChildren": 30,
+    "foreignLanguageChildren": 1,
+    "share": 3.33
+  },
+  {
+    "municipalityCode": "KU743",
+    "municipality": "Seinäjoki",
+    "totalChildren": 3241,
+    "foreignLanguageChildren": 233,
+    "share": 7.19
+  },
+  {
+    "municipalityCode": "KU746",
+    "municipality": "Sievi",
+    "totalChildren": 200,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU747",
+    "municipality": "Siikainen",
+    "totalChildren": 21,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU748",
+    "municipality": "Siikajoki",
+    "totalChildren": 166,
+    "foreignLanguageChildren": 4,
+    "share": 2.41
+  },
+  {
+    "municipalityCode": "KU791",
+    "municipality": "Siikalatva",
+    "totalChildren": 111,
+    "foreignLanguageChildren": 2,
+    "share": 1.8
+  },
+  {
+    "municipalityCode": "KU749",
+    "municipality": "Siilinjärvi",
+    "totalChildren": 1140,
+    "foreignLanguageChildren": 16,
+    "share": 1.4
+  },
+  {
+    "municipalityCode": "KU751",
+    "municipality": "Simo",
+    "totalChildren": 66,
+    "foreignLanguageChildren": 1,
+    "share": 1.52
+  },
+  {
+    "municipalityCode": "KU753",
+    "municipality": "Sipoo",
+    "totalChildren": 976,
+    "foreignLanguageChildren": 64,
+    "share": 6.56
+  },
+  {
+    "municipalityCode": "KU755",
+    "municipality": "Siuntio",
+    "totalChildren": 237,
+    "foreignLanguageChildren": 20,
+    "share": 8.44
+  },
+  {
+    "municipalityCode": "KU758",
+    "municipality": "Sodankylä",
+    "totalChildren": 238,
+    "foreignLanguageChildren": 4,
+    "share": 1.68
+  },
+  {
+    "municipalityCode": "KU759",
+    "municipality": "Soini",
+    "totalChildren": 54,
+    "foreignLanguageChildren": 1,
+    "share": 1.85
+  },
+  {
+    "municipalityCode": "KU761",
+    "municipality": "Somero",
+    "totalChildren": 272,
+    "foreignLanguageChildren": 30,
+    "share": 11.03
+  },
+  {
+    "municipalityCode": "KU762",
+    "municipality": "Sonkajärvi",
+    "totalChildren": 105,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU765",
+    "municipality": "Sotkamo",
+    "totalChildren": 161,
+    "foreignLanguageChildren": 17,
+    "share": 10.56
+  },
+  {
+    "municipalityCode": "KU766",
+    "municipality": "Sottunga",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU768",
+    "municipality": "Sulkava",
+    "totalChildren": 63,
+    "foreignLanguageChildren": 1,
+    "share": 1.59
+  },
+  {
+    "municipalityCode": "KU771",
+    "municipality": "Sund",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU777",
+    "municipality": "Suomussalmi",
+    "totalChildren": 157,
+    "foreignLanguageChildren": 17,
+    "share": 10.83
+  },
+  {
+    "municipalityCode": "KU778",
+    "municipality": "Suonenjoki",
+    "totalChildren": 176,
+    "foreignLanguageChildren": 2,
+    "share": 1.14
+  },
+  {
+    "municipalityCode": "KU781",
+    "municipality": "Sysmä",
+    "totalChildren": 35,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU783",
+    "municipality": "Säkylä",
+    "totalChildren": 78,
+    "foreignLanguageChildren": 10,
+    "share": 12.82
+  },
+  {
+    "municipalityCode": "KU831",
+    "municipality": "Taipalsaari",
+    "totalChildren": 176,
+    "foreignLanguageChildren": 10,
+    "share": 5.68
+  },
+  {
+    "municipalityCode": "KU832",
+    "municipality": "Taivalkoski",
+    "totalChildren": 107,
+    "foreignLanguageChildren": 1,
+    "share": 0.93
+  },
+  {
+    "municipalityCode": "KU833",
+    "municipality": "Taivassalo",
+    "totalChildren": 62,
+    "foreignLanguageChildren": 5,
+    "share": 8.06
+  },
+  {
+    "municipalityCode": "KU834",
+    "municipality": "Tammela",
+    "totalChildren": 223,
+    "foreignLanguageChildren": 5,
+    "share": 2.24
+  },
+  {
+    "municipalityCode": "KU837",
+    "municipality": "Tampere",
+    "totalChildren": 10198,
+    "foreignLanguageChildren": 1580,
+    "share": 15.49
+  },
+  {
+    "municipalityCode": "KU844",
+    "municipality": "Tervo",
+    "totalChildren": 20,
+    "foreignLanguageChildren": 1,
+    "share": 5
+  },
+  {
+    "municipalityCode": "KU845",
+    "municipality": "Tervola",
+    "totalChildren": 115,
+    "foreignLanguageChildren": 4,
+    "share": 3.48
+  },
+  {
+    "municipalityCode": "KU846",
+    "municipality": "Teuva",
+    "totalChildren": 148,
+    "foreignLanguageChildren": 3,
+    "share": 2.03
+  },
+  {
+    "municipalityCode": "KU848",
+    "municipality": "Tohmajärvi",
+    "totalChildren": 101,
+    "foreignLanguageChildren": 1,
+    "share": 0.99
+  },
+  {
+    "municipalityCode": "KU849",
+    "municipality": "Toholampi",
+    "totalChildren": 90,
+    "foreignLanguageChildren": 3,
+    "share": 3.33
+  },
+  {
+    "municipalityCode": "KU850",
+    "municipality": "Toivakka",
+    "totalChildren": 3,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU851",
+    "municipality": "Tornio",
+    "totalChildren": 900,
+    "foreignLanguageChildren": 39,
+    "share": 4.33
+  },
+  {
+    "municipalityCode": "KU853",
+    "municipality": "Turku",
+    "totalChildren": 7922,
+    "foreignLanguageChildren": 1893,
+    "share": 23.9
+  },
+  {
+    "municipalityCode": "KU857",
+    "municipality": "Tuusniemi",
+    "totalChildren": 47,
+    "foreignLanguageChildren": 2,
+    "share": 4.26
+  },
+  {
+    "municipalityCode": "KU858",
+    "municipality": "Tuusula",
+    "totalChildren": 1957,
+    "foreignLanguageChildren": 203,
+    "share": 10.37
+  },
+  {
+    "municipalityCode": "KU859",
+    "municipality": "Tyrnävä",
+    "totalChildren": 430,
+    "foreignLanguageChildren": 2,
+    "share": 0.47
+  },
+  {
+    "municipalityCode": "KU886",
+    "municipality": "Ulvila",
+    "totalChildren": 477,
+    "foreignLanguageChildren": 15,
+    "share": 3.14
+  },
+  {
+    "municipalityCode": "KU887",
+    "municipality": "Urjala",
+    "totalChildren": 130,
+    "foreignLanguageChildren": 4,
+    "share": 3.08
+  },
+  {
+    "municipalityCode": "KU889",
+    "municipality": "Utajärvi",
+    "totalChildren": 88,
+    "foreignLanguageChildren": 10,
+    "share": 11.36
+  },
+  {
+    "municipalityCode": "KU890",
+    "municipality": "Utsjoki",
+    "totalChildren": 29,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU892",
+    "municipality": "Uurainen",
+    "totalChildren": 175,
+    "foreignLanguageChildren": 1,
+    "share": 0.57
+  },
+  {
+    "municipalityCode": "KU893",
+    "municipality": "Uusikaarlepyy",
+    "totalChildren": 335,
+    "foreignLanguageChildren": 39,
+    "share": 11.64
+  },
+  {
+    "municipalityCode": "KU895",
+    "municipality": "Uusikaupunki",
+    "totalChildren": 458,
+    "foreignLanguageChildren": 95,
+    "share": 20.74
+  },
+  {
+    "municipalityCode": "KU785",
+    "municipality": "Vaala",
+    "totalChildren": 72,
+    "foreignLanguageChildren": 6,
+    "share": 8.33
+  },
+  {
+    "municipalityCode": "KU905",
+    "municipality": "Vaasa",
+    "totalChildren": 2975,
+    "foreignLanguageChildren": 574,
+    "share": 19.29
+  },
+  {
+    "municipalityCode": "KU908",
+    "municipality": "Valkeakoski",
+    "totalChildren": 820,
+    "foreignLanguageChildren": 59,
+    "share": 7.2
+  },
+  {
+    "municipalityCode": "KU092",
+    "municipality": "Vantaa",
+    "totalChildren": 12602,
+    "foreignLanguageChildren": 4361,
+    "share": 34.61
+  },
+  {
+    "municipalityCode": "KU915",
+    "municipality": "Varkaus",
+    "totalChildren": 639,
+    "foreignLanguageChildren": 60,
+    "share": 9.39
+  },
+  {
+    "municipalityCode": "KU918",
+    "municipality": "Vehmaa",
+    "totalChildren": 69,
+    "foreignLanguageChildren": 4,
+    "share": 5.8
+  },
+  {
+    "municipalityCode": "KU921",
+    "municipality": "Vesanto",
+    "totalChildren": 28,
+    "foreignLanguageChildren": 0,
+    "share": 0
+  },
+  {
+    "municipalityCode": "KU922",
+    "municipality": "Vesilahti",
+    "totalChildren": 238,
+    "foreignLanguageChildren": 3,
+    "share": 1.26
+  },
+  {
+    "municipalityCode": "KU924",
+    "municipality": "Veteli",
+    "totalChildren": 80,
+    "foreignLanguageChildren": 7,
+    "share": 8.75
+  },
+  {
+    "municipalityCode": "KU925",
+    "municipality": "Vieremä",
+    "totalChildren": 81,
+    "foreignLanguageChildren": 6,
+    "share": 7.41
+  },
+  {
+    "municipalityCode": "KU927",
+    "municipality": "Vihti",
+    "totalChildren": 1290,
+    "foreignLanguageChildren": 116,
+    "share": 8.99
+  },
+  {
+    "municipalityCode": "KU931",
+    "municipality": "Viitasaari",
+    "totalChildren": 150,
+    "foreignLanguageChildren": 4,
+    "share": 2.67
+  },
+  {
+    "municipalityCode": "KU934",
+    "municipality": "Vimpeli",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU935",
+    "municipality": "Virolahti",
+    "totalChildren": 72,
+    "foreignLanguageChildren": 2,
+    "share": 2.78
+  },
+  {
+    "municipalityCode": "KU936",
+    "municipality": "Virrat",
+    "totalChildren": 187,
+    "foreignLanguageChildren": 13,
+    "share": 6.95
+  },
+  {
+    "municipalityCode": "KU941",
+    "municipality": "Vårdö",
+    "totalChildren": 0,
+    "foreignLanguageChildren": 0,
+    "share": null
+  },
+  {
+    "municipalityCode": "KU946",
+    "municipality": "Vöyri",
+    "totalChildren": 280,
+    "foreignLanguageChildren": 35,
+    "share": 12.5
+  },
+  {
+    "municipalityCode": "KU976",
+    "municipality": "Ylitornio",
+    "totalChildren": 101,
+    "foreignLanguageChildren": 10,
+    "share": 9.9
+  },
+  {
+    "municipalityCode": "KU977",
+    "municipality": "Ylivieska",
+    "totalChildren": 767,
+    "foreignLanguageChildren": 14,
+    "share": 1.83
+  },
+  {
+    "municipalityCode": "KU980",
+    "municipality": "Ylöjärvi",
+    "totalChildren": 1884,
+    "foreignLanguageChildren": 51,
+    "share": 2.71
+  },
+  {
+    "municipalityCode": "KU981",
+    "municipality": "Ypäjä",
+    "totalChildren": 65,
+    "foreignLanguageChildren": 6,
+    "share": 9.23
+  },
+  {
+    "municipalityCode": "KU989",
+    "municipality": "Ähtäri",
+    "totalChildren": 170,
+    "foreignLanguageChildren": 10,
+    "share": 5.88
+  },
+  {
+    "municipalityCode": "KU992",
+    "municipality": "Äänekoski",
+    "totalChildren": 587,
+    "foreignLanguageChildren": 21,
+    "share": 3.58
+  }
+]
