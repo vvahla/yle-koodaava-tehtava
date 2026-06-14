@@ -140,7 +140,9 @@ select:focus-visible {
   display: flex;
   min-width: 0;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-top: 8px;
+  padding-bottom: 10px;
 }
 
 .result-copy h2 {
@@ -152,8 +154,12 @@ select:focus-visible {
 }
 
 .comparison-sentence {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   width: fit-content;
   max-width: 620px;
+  margin-top: auto;
   padding: 10px 13px;
   border: 1px solid rgba(31, 111, 235, 0.16);
   border-radius: 999px;
@@ -163,6 +169,15 @@ select:focus-visible {
   font-size: 16px;
   font-weight: 750;
   line-height: 1.35;
+}
+
+.comparison-dot {
+  flex: 0 0 auto;
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px rgba(31, 111, 235, 0.12);
 }
 
 .main-percentage {
@@ -355,6 +370,7 @@ select:focus-visible {
 
   .comparison-sentence {
     width: auto;
+    margin-top: 0;
     border-radius: 14px;
   }
 

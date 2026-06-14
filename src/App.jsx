@@ -164,7 +164,10 @@ function App() {
               <p className="result-kicker">Kunnan tilanne</p>
               <h2 id="result-heading">{selectedMunicipality.municipality}</h2>
               <p className="comparison-sentence">
-                {getComparisonText(selectedMunicipality, nationalData.share)}
+                <span aria-hidden="true" className="comparison-dot"></span>
+                <span>
+                  {getComparisonText(selectedMunicipality, nationalData.share)}
+                </span>
               </p>
             </div>
 
