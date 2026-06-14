@@ -22,22 +22,45 @@ function formatPercentage(value) {
   return `${percentageFormatter.format(value)} %`
 }
 
-function formatDifference(selectedShare, nationalShare) {
+function formatPercentageText(value) {
+  if (value === null) {
+    return 'ei ole saatavilla'
+  }
+
+  return `${percentageFormatter.format(value)} prosenttia`
+}
+
+function getLocationText(municipality) {
+  if (municipality === 'Helsinki') {
+    return 'Helsingissä'
+  }
+
+  return `Kunnassa ${municipality}`
+}
+
+function getComparisonText(selectedShare, nationalShare) {
   if (selectedShare === null || nationalShare === null) {
-    return 'Ei saatavilla'
+    return 'Vertailua koko maahan ei voi laskea, koska osuus puuttuu.'
   }
 
   const difference = selectedShare - nationalShare
-  const sign = difference > 0 ? '+' : ''
+  const absoluteDifference = Math.abs(difference)
+  const formattedDifference = percentageFormatter.format(absoluteDifference)
 
-  return `${sign}${percentageFormatter.format(difference)} prosenttiyksikköä`
+  if (absoluteDifference < 0.005) {
+    return 'Se on samalla tasolla kuin koko maassa.'
+  }
+
+  const direction = difference > 0 ? 'enemmän' : 'vähemmän'
+
+  return `Se on ${formattedDifference} prosenttiyksikköä ${direction} kuin koko maassa.`
 }
 
-function ComparisonBar({ label, share }) {
+function ComparisonBar({ label, share, variant = 'primary' }) {
   const width = share === null ? 0 : Math.min(Math.max(share, 0), 100)
 
   return (
-    <div className="comparison-bar">
+    <div className={`comparison-bar ${variant}`}>
       <div className="bar-label">
         <span>{label}</span>
         <strong>{formatPercentage(share)}</strong>
@@ -81,22 +104,31 @@ function App() {
   }
 
   const shareIsMissing = selectedMunicipality.share === null
+  const mainSentence = `${getLocationText(
+    selectedMunicipality.municipality
+  )} vieraskielisten lasten osuus varhaiskasvatuksessa on ${formatPercentageText(
+    selectedMunicipality.share
+  )}.`
 
   return (
     <main className="page">
       <header className="intro">
         <p className="eyebrow">Kuntavertailu</p>
-        <h1>Vieraskieliset lapset kunnittain</h1>
+        <h1>Vieraskielisten lasten osuus vaihtelee kunnittain</h1>
         <p>
-          Valitse kunta ja vertaa vieraskielisten lasten osuutta koko maan
-          tasoon.
+          Valitse kunta ja katso, kuinka suuri osuus varhaiskasvatuksessa
+          olevista lapsista on vieraskielisiä. Vertailukohtana on koko maan
+          osuus.
         </p>
       </header>
 
       <section className="selector-section" aria-labelledby="municipality-label">
-        <label id="municipality-label" htmlFor="municipality-select">
-          Kunta
-        </label>
+        <div>
+          <label id="municipality-label" htmlFor="municipality-select">
+            Valitse kunta
+          </label>
+          <p>Lista on aakkosjärjestyksessä. Koko Suomi näkyy vain vertailussa.</p>
+        </div>
         <select
           id="municipality-select"
           value={selectedCode}
@@ -113,24 +145,32 @@ function App() {
         </select>
       </section>
 
-      <section className="result" aria-live="polite">
-        <div className="result-heading">
-          <div>
-            <p className="eyebrow">Valittu kunta</p>
-            <h2>{selectedMunicipality.municipality}</h2>
-          </div>
-          <p className="share-value">
+      <section
+        key={selectedMunicipality.municipalityCode}
+        className="result-card"
+        aria-live="polite"
+      >
+        <div className="result-kicker">Näin kunta vertautuu koko maahan</div>
+        <div className="result-lede">
+          <h2>{selectedMunicipality.municipality}</h2>
+          <p className="main-percentage">
             {formatPercentage(selectedMunicipality.share)}
           </p>
         </div>
 
-        {shareIsMissing && (
+        {shareIsMissing ? (
           <p className="notice">
             Osuutta ei voi laskea, koska lasten kokonaismäärä on nolla.
           </p>
+        ) : (
+          <p className="story-sentence">{mainSentence}</p>
         )}
 
-        <dl className="stats">
+        <p className="comparison-sentence">
+          {getComparisonText(selectedMunicipality.share, nationalData.share)}
+        </p>
+
+        <dl className="stats" aria-label="Kunnan luvut">
           <div>
             <dt>Lapsia yhteensä</dt>
             <dd>{formatNumber(selectedMunicipality.totalChildren)}</dd>
@@ -140,26 +180,32 @@ function App() {
             <dd>{formatNumber(selectedMunicipality.foreignLanguageChildren)}</dd>
           </div>
           <div>
-            <dt>Osuus</dt>
-            <dd>{formatPercentage(selectedMunicipality.share)}</dd>
-          </div>
-          <div>
-            <dt>Ero koko Suomeen</dt>
-            <dd>
-              {formatDifference(selectedMunicipality.share, nationalData.share)}
-            </dd>
+            <dt>Koko maan osuus</dt>
+            <dd>{formatPercentage(nationalData.share)}</dd>
           </div>
         </dl>
       </section>
 
       <section className="comparison" aria-labelledby="comparison-heading">
-        <h2 id="comparison-heading">Osuuden vertailu</h2>
+        <div className="section-heading">
+          <h2 id="comparison-heading">Osuuden vertailu</h2>
+          <p>Vieraskielisten lasten osuus varhaiskasvatuksessa.</p>
+        </div>
         <ComparisonBar
           label={selectedMunicipality.municipality}
           share={selectedMunicipality.share}
         />
-        <ComparisonBar label={NATIONAL_NAME} share={nationalData.share} />
+        <ComparisonBar
+          label={NATIONAL_NAME}
+          share={nationalData.share}
+          variant="secondary"
+        />
       </section>
+
+      <p className="source-note">
+        Lähde: esikäsitelty paikallinen aineisto tiedostossa
+        src/data/municipalities.json.
+      </p>
     </main>
   )
 }
