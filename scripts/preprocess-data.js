@@ -11,15 +11,32 @@ const outputPath = path.join(projectRoot, 'src', 'data', 'municipalities.json');
 const rawData = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
 const municipalityCategory = rawData.dimension.alue_23_20240101.category;
 
+function parseValue(value) {
+  const number = Number(value);
+
+  return Number.isFinite(number) ? number : null;
+}
+
+function calculateShare(totalChildren, foreignLanguageChildren) {
+  if (
+    totalChildren === null ||
+    totalChildren === 0 ||
+    foreignLanguageChildren === null
+  ) {
+    return null;
+  }
+
+  return Number(((foreignLanguageChildren / totalChildren) * 100).toFixed(2));
+}
+
 const municipalities = Object.entries(municipalityCategory.index)
   .sort(([, firstIndex], [, secondIndex]) => firstIndex - secondIndex)
   .map(([municipalityCode], municipalityIndex) => {
-    const totalChildren = Number(rawData.value[municipalityIndex * 2]);
-    const foreignLanguageChildren = Number(rawData.value[municipalityIndex * 2 + 1]);
-    const share =
-      totalChildren === 0
-        ? null
-        : Number(((foreignLanguageChildren / totalChildren) * 100).toFixed(2));
+    const totalChildren = parseValue(rawData.value[municipalityIndex * 2]);
+    const foreignLanguageChildren = parseValue(
+      rawData.value[municipalityIndex * 2 + 1]
+    );
+    const share = calculateShare(totalChildren, foreignLanguageChildren);
 
     return {
       municipalityCode,

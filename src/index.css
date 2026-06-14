@@ -3,20 +3,21 @@
   --text-h: #111827;
   --muted: #667085;
   --bg: #fbfaf7;
-  --surface: #fffdf9;
+  --surface: #fffefa;
+  --comparison-surface: #fbf7f0;
   --border: #e6e0d7;
   --input-border: #cfc7ba;
   --code-bg: #f4f3ec;
-  --accent: #7c2d12;
-  --accent-strong: #8a3d18;
-  --accent-soft: #f5e8dd;
+  --accent: #6f4e37;
+  --accent-strong: #745037;
+  --accent-soft: #f2e8de;
   --accent-bg: rgba(124, 45, 18, 0.1);
   --accent-border: rgba(124, 45, 18, 0.35);
   --focus: rgba(132, 92, 45, 0.34);
   --notice: #8a3d18;
   --notice-bg: #f8efe7;
   --bar-bg: #ece5db;
-  --bar-fill: #8a3d18;
+  --bar-fill: #745037;
   --bar-fill-secondary: #7f8c8d;
   --social-bg: rgba(244, 243, 236, 0.5);
   --shadow:
